@@ -2,26 +2,26 @@ Actividad En Clase:
 
 Parte 1 – Validación LDAP
 1. Ver usuarios: ldapsearch-x -b dc=danse,dc=com
-![1](imagenes/LDAPII/1.jpeg)
-![3](imagenes/LDAPII/3.jpeg)
+![1](LDAPII/1.jpeg)
+![3](LDAPII/3.jpeg)
 
 2. Probar login: ldapwhoami-x -D "uid=dev5,ou=IT,dc=danse,dc=com" –W
-![2](imagenes/LDAPII/2.jpeg)
+![2](LDAPII/2.jpeg)
 
 
 Parte 2 – Web LDAP
 Creacion y validación en http://localhost:9020
-![4](imagenes/LDAPII/4.jpeg)
+![4](LDAPII/4.jpeg)
 
 
 Parte 3 – Pruebas
 - Login correcto
-![4](imagenes/LDAPII/5.jpeg)
-![4](imagenes/LDAPII/6.jpeg)
+![4](LDAPII/5.jpeg)
+![4](LDAPII/6.jpeg)
  
 - Login incorrecto
-![7](imagenes/LDAPII/7.jpeg)
-![8](imagenes/LDAPII/8.jpeg)
+![7](LDAPII/7.jpeg)
+![8](LDAPII/8.jpeg)
 
 
 Actividad Independiente:
@@ -43,10 +43,10 @@ OK -> Acceso permitido
 FAIL -> Error de autenticación
 
 - Código PHP
-![9](imagenes/LDAPII/9.jpeg) 
+![9](LDAPII/9.jpeg) 
 
 - Evidencias
-![10](imagenes/LDAPII/10.jpeg)
-![11](imagenes/LDAPII/11.jpeg)
-![12](imagenes/LDAPII/12.jpeg)
-![13](imagenes/LDAPII/13.jpeg)
+![10](LDAPII/10.jpeg)
+![11](LDAPII/11.jpeg)
+![12](LDAPII/12.jpeg)
+![13](LDAPII/13.jpeg)
